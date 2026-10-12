@@ -1,0 +1,2077 @@
+                    The Joy of Computing using Python
+
+                                                        Assignment 1
+
+1. Which of the following is true about a computer program?
+     (a) It is a sequence of instructions
+    (b) Instructions that are written in simple english
+     (c) There is only one universal programming language
+    (d) It is meant for only software developers
+   CORRECT ANSWER: (a)
+
+2. Assume you are given two images, each displaying two basic positions of situps. Identify the set of commands
+   to perform an exercise with both images.
+     (a) Turn clockwise 90 degree/Turn clockwise -90 degrees
+    (b) Move 10 steps/Move -10 steps
+     (c) Hide/Show
+    (d) point in direction 90/point in direction -90
+   CORRECT ANSWER: (c)
+
+3. Choose the best command to be used at the start of your code, to locate the sprite at an initial position every
+   time you play the animation.
+     (a) change x to val
+    (b) set x to val / set y to val
+     (c) point in direction 90
+    (d) point towards mouse pointer
+   CORRECT ANSWER: (b)
+
+4. Assume the sprite is a ball and predict the output of the following control structure.
+
+     (a) The ball glides to a random position in 1 second
+    (b) The ball glides to 10 random positions taking 1 second to reach each position
+     (c) The ball glides to a random position and waits there for 10 seconds
+    (d) The ball glides to 10 random positions within 1 second
+   CORRECT ANSWER: (b)
+
+                                                                       1
+5. Pick the snippet that helps the sprite to find the factorial of 5 as output.
+   Given:
+   Factorial(n)=1 x 2 x 3 x .. x (n-1) x n
+
+     (a)
+
+    (b)
+
+     (c)
+                                                                       2
+    (d)
+   CORRECT ANSWER: (a)
+6. Predict the sequence of numbers that the sprite recites:
+
+     (a) 1, 2, 3, . . , 19
+    (b) 1, 3, 5, . . , 19
+     (c) 3, 5, 7, . . , 19
+    (d) 1, 2, 3, . . , 20
+   CORRECT ANSWER: (b)
+
+                                                                       3
+7. Consider a road inclined at an angle of 30° and we have a car sprite to be driven over this road. Pick the code
+   that helps to perform the same. Hint: The initial direction of the sprite is 90°.
+
+     (a)
+
+    (b)
+                                                                       4
+     (c)
+
+    (d)
+   CORRECT ANSWER: (d)
+8. Identify the command to communicate across multiple sprites.
+     (a) say message
+    (b) play sound
+     (c) Broadcast message
+    (d) touching color
+   CORRECT ANSWER: (c)
+
+                                                                       5
+ 9. Pick out the scratch library that provides the functionality to switch backdrop?
+      (a) Motion
+      (b) Control
+      (c) Looks
+      (d) Sensing
+     CORRECT ANSWER: (c)
+
+10. Imagine a Magic wand sprite and predict the output for the following set of instructions.
+
+      (a) The Magic wand ﬂies to a random position takes 1 sec pause and then reaches another random position.
+      (b) The Magic wand ﬂies to a random position in 1 sec and after a 0.25 sec pause, it repeats the same until
+
+           it is stopped.
+      (c) The Magic wand reaches all edges of the screen in a uniform pattern
+      (d) The Magic wand ﬂies between the top and b ottom edges repeatedly.
+     CORRECT ANSWER: (b)
+
+                                                                         6
+                    The Joy of Computing using Python
+
+                                                        Assignment 2
+
+NOTE: Python 3.7 has been used for this Assignment
+1. Identify the statement with an invalid syntax. Expected Output: Stay Safe! Friends
+
+     (a) print(‛Stay Safe!‑,‛Friends‑)
+    (b) print(‛Stay Safe! Friends‑)
+     (c) print(”Stay Safe! Friends‖)
+    (d) print(Stay Safe Friends)
+   CORRECT ANSWER: (d)
+2. Predict the output for the following code that checks the eligibility to vote.
+
+                                age=19
+                                 i f ag e :=18
+
+                                               print (  Hey ! You a r e e l i g i b l e t o v ot e  )
+                                 else :
+
+                                               print (  OOPS ! You a re n ot e l i g i b l e t o v ot e  )
+
+     (a) Hey! You are eligible to vote
+    (b) OOPS! You are not eligible to vote
+     (c) Syntax Error: invalid syntax
+    (d) Invalid age
+
+   CORRECT ANSWER: (c)
+   The option Syntax Error: invalid syntax is correct because colon is missing in the if statement
+3. What is the output of the following code?
+
+                                de f f u n c ( ) :
+                                               print ()
+                                               c=10
+                                               i =0
+                                               while ( i ;=5):
+                                                              j =1
+                                                             while ( j ;=20):
+                                                                            p r i n t (   ,end=  )
+                                                                            i f ( j :=10 i and j ;=10+ i ) :
+                                                                                          print (    , e n d=‑ ‑ )
+                                                                            else :
+                                                                                          print (   , e n d=‑ ‑ )
+                                                                            j= j +1
+                                                             print (  [n  )
+                                                              i=i+1
+
+                                 func ()
+
+                                                                       1
+     (a)
+
+    (b)
+
+     (c)
+
+    (d)
+   CORRECT ANSWER: (b)
+4. With n as input, the code below computes
+
+                                de f mul(num):
+                                               i f (num==1):
+                                                             return(  1)
+                                               return( 1 mul(num 1) )
+                                                                       2
+            n=int ( input ( ‑ E nt er t he v a lu e o f n ‑ ) )
+            print (mul(n))
+
+(a) −1 Ù n
+(b) −1 + n
+(c) (−1)n
+(d) n(−1)
+
+CORRECT ANSWER: (c)
+
+5. For the given code, what is the value of ”total‖ variable at the end of execution?
+
+                     m1 =  98   
+
+                     m2 =  79   
+
+                     m3 =  87   
+
+                     t o t a l = m1 + m2 + m3
+
+                     print( tota l )
+
+     (a) syntax error
+
+    (b) 264
+
+     (c) 988779
+
+    (d) 987987
+
+   CORRECT ANSWER: (d)
+
+   The last option is correct because the operator ‖+‖ concatenates the string inputs.
+
+6. Replace the given set of instructions with a for loop.
+
+                                n=2
+                                print ( n )
+                                n=n 2
+                                print ( n )
+                                n=n 2
+                                print ( n )
+                                n=n 2
+                                print ( n )
+                                n=n 2
+                                print ( n )
+
+ (a)                 f or i in range ( 1 , 6 ) :
+ (b)                 print (pow(2 , i ))
+ (c)
+ (d)                 f or i in range ( 1 , 6 ) :
+CORRECT ANSWER: (c)                print (pow( i , 2 ) )
+
+                     f or i in range ( 1 , 6 ) :
+                                   print (pow(2 , i ))
+
+                     f or i in range ( 1 , 5 ) :
+                                   print (pow(2 , i ))
+
+                           3
+7. Which of the following is the output for the given code?
+                                n=58print(n+5)8print(n+5)8print(n+5)8print (n+5)8
+
+     (a) 10 10 10 10
+    (b) 5 10 15 20
+     (c) 10
+
+          10
+          10
+          10
+    (d) 5
+          10
+          15
+          20
+
+   CORRECT ANSWER: (c)
+
+8. Identify the appropriate output.
+
+                                name=  Avani Chaturvedi ! 
+                                print (  H e l l o !  , name ,  How a r e y ou ?  )
+                                print (  P r ou d t o m ee t y ou !  )
+
+(a) Hello! Avani Chaturvedi! How are you? Proud to meet you!
+(b) Hello! Avani Chaturvedi!
+
+     How are you?
+     Proud to meet you!
+(c) Hello!
+     Avani Chaturvedi!
+     How are you?
+     Proud to meet you!
+(d) Hello! Avani Chaturvedi! How are you?
+     Proud to meet you!
+
+CORRECT ANSWER: (d)
+
+9. What happens if we key in number 5 for the variable c in the below code?
+
+   c=1                                                      choice :0/1:  ))
+   while (c==1):
+
+                 print(  hello  )
+                 c=i n t ( input (  E nt er
+
+‘
+
+(a) Loop terminates
+(b) Continues execution
+(c) Program restarts execution
+(d) None of the above
+
+CORRECT ANSWER: (a)
+
+Loop terminates is the correct answer because the loop continues only when c is equal to 1. For all other values
+it terminates.
+
+10. What is the output of the following code?
+
+                                  d= 20
+                                  while (d:0):
+
+                                         print ( d )
+                                  i f ( d;0):
+
+                                         print( 1 d )
+
+                                                         4
+ (a) Infinite loop
+ (b) -20 20
+ (c) 20
+ (d) -20
+CORRECT ANSWER: (c)
+
+                                                                   5
+     The Joy of Computing using Python
+
+                                Assignment 3
+
+NOTE: Python 3.7 has been used for this Assignment
+
+1. What is the expected output for the following code?
+
+                                 cart="  coffee  ,  sugar  ,  cheese  ,  butter  '
+                                 for item in cart :
+
+                                               i f item== sugar  :
+                                                             print(  jaggery  )
+
+                                               else :
+                                                             print ( i t e m )
+
+     (a) " coflee ,  jaggery ,  cheese  ,  butter  '
+    (b) " coflee  ,  sugar  ,  cheese  ,  butter  '
+     (c) coflee
+
+          jaggery
+          cheese
+          butter
+    (d) coflee jaggery cheese butter
+
+   CORRECT ANSWER: (c)
+   Solution: The items in the list named ”cart‖ are only displayed, not the list itself. So the first two options are
+   wrong. The print statement adds by default a newline character at the end. Therefore only option three is
+   right.
+
+2. Which of the following code prints the sum of weights of people in the lift.
+
+(a)  sum=0
+
+     weights ="97, 52 , 65 , 43 , 77'
+
+     for w in weights :
+
+            sum=sum+w
+
+     print (sum)
+
+(b)  sum=0
+
+     weights ="97, 52 , 65 , 43 , 77'
+
+     f or w in range ( len ( w e i g h t s ) ) :
+
+            sum=sum+w
+
+     print (sum)
+
+(c)  sum=0
+
+     weights ="97, 52 , 65 , 43 , 77'
+
+     for w in weights :
+
+     sum=sum+w
+
+     print (sum)
+
+(d)  sum=0
+
+     weights ="97, 52 , 65 , 43 , 77'
+
+     for w in weights :
+
+            sum=w
+
+     print (sum)
+
+                  1
+   CORRECT ANSWER: (a)
+   First option is correct. Indenting is wrong in the second and third options whereas in the third option, the
+   sum is not calculated by adding the items in the list in the last option.
+
+3. Consider a python list named ”book titles‖. Pick the statement to add ”Who moved my cheese?‖ as the third
+   item.
+   Given: book titles = "”Exam Warriors‖, ”Evil in the Mahabharata‖, ”6 TIMES THINNER‖, ”The Driver in the
+   Driverless Car‖, ”Evolution‖'
+
+     (a) book titles.append(2,”Who moved my cheese?‖)
+    (b) book titles.insert(2,”Who moved my cheese?‖)
+     (c) book titles.insert(3,”Who moved my cheese?‖)
+    (d) book titles.append(3,”Who moved my cheese?‖)
+
+   CORRECT ANSWER: (b)
+   Solution: book titles.insert(2,”Who moved my cheese?‖) is correct.
+   insert() function is used to add an item to the list at a desired index position. The indexing starts from 0.
+   Therefore option two is correct.
+
+4. Pick the relevant output for the given code.
+                                n="1 ,4 ,2 ,8 ,21 ,17'
+                                n. reverse ()
+                                print ( n )
+
+     (a) "1, 2, 4, 8, 17, 21'
+    (b) "21, 17, 8, 4, 2, 1'
+     (c) "17, 21, 8, 2, 4, 1'
+    (d) "1, 4, 2, 8, 21, 17'
+
+   CORRECT ANSWER: (c)
+   Solution: "17, 21, 8, 2 4, , 1' is correct. The reverse() function exactly reverses the sequence of elements in the
+   list.
+
+5. Specify the purpose of ”break‖ statement inside a nested loop.
+
+     (a) Ends execution of the program
+    (b) Ends execution of the outermost loop
+     (c) Skips the current iteration of the loop
+    (d) Ends the execution of the loop
+
+   CORRECT ANSWER: (d)
+
+6. You are given a list, ”marks‖ scored by 30 students. Identify the instruction to find the 2% trimmed mean for
+   the given data.
+
+     (a) m=stats.trim mean(marks,0.2)
+    (b) m=stats.trim mean(marks,0.03)
+     (c) m=stats.trim mean(30,0.02)
+    (d) m=stats.trim mean(marks,0.02)
+
+   CORRECT ANSWER: (d)
+
+7. How will you simulate ”Rolling a Dice‖ with six faces by making use of ”random‖ library?
+
+     (a) roll= random.choice(1,2,3,4,5,6)
+    (b) roll= random.range(1,5)
+     (c) roll= random.randint(1,6)
+
+                                                                       2
+    (d) roll= random.random(6)
+   CORRECT ANSWER: (c)
+8. Which of the plots in the options is most likely to be generated from the following code?
+
+                                import random
+                                import m a t p l o t l i b . p y p lo t a s p l t
+                                de f p l a y ( ) :
+
+                                               amt=0
+                                               f or i in range ( 0 , 1 0 0 ) :
+
+                                                             r=random . ran di nt (1 ,10 00 )
+                                                              i f ( r!=random. rand int (1 ,1 00 0) ):
+
+                                                                            amt=amt
+                                                             else :
+
+                                                                            amt=amt+1000
+                                               return amt
+                                 l ="'
+                                 for j in range ( 0 , 1 0 0 ) :
+                                               s=0
+                                               f or i in range ( 0 , 1 0 0 ) :
+
+                                                             s=s+play ()
+                                               l . append ( s)
+                                x="'
+                                y="'
+                                 for each in l i s t ( set ( l )) :
+                                               x . append( each)
+                                               y . append( l . count ( each ))
+                                 pl t . plo t (x , y ,  ro  )
+                                 pl t . show( )
+
+     (a)
+
+    (b)
+
+                                                                       3
+(c)
+
+(d)
+
+CORRECT ANSWER: (b)
+
+9. Assuming, there is no file named ”file.txt‖ on my computer, what does the following code do?
+
+                        with  open (   f i l e . tx t   , w     )  as  f:
+
+                              f . writ e (  Hey ! I am w r i t i n g .  ) 8
+
+                        f . clo se ()
+
+                        with  open (   f i l e . tx t   , w     )  as  f:
+
+                              f . writ e (  Hey I am w r i t i n g t he s ec on d  line .  )8
+
+                        f . clo se ()
+
+                        with  open (   f i l e . tx t   , r )      as  f:
+
+                              print( f . read ())
+
+                        f . clo se ()
+
+(a) Shows error
+(b) Displays: Hey I am writing the second line
+(c) Displays: Hey! I am writing.Hey I am writing the second line.
+(d) Displays: Hey! I am writing.
+
+CORRECT ANSWER: (b)
+
+10. Predict the output
+
+                        my para=  i am t o go t o KT i n A 
+                        print ( l i s t ( my para ))
+
+(a) "”i‖, ” ‖, ”a‖, ”m‖, ” ‖, ”t‖, ”o‖, ” ‖, ”g‖, ”o‖, ” ‖, ”t‖, ”o‖, ” ‖,
+       ”K‖, ”T‖, ” ‖, ”i‖, ”n‖, ” ‖, ”A‖'
+
+(b) "”i‖, ”a‖, ”m‖, ”t‖, ”o‖, ”g‖, ”o‖, ”t‖, ”o‖, ”K‖, ”T‖, ”i‖, ”n‖, ”A‖'
+
+(c) "”i‖, ”am‖, ”to‖, ”go‖, ”to‖, ”KT‖, ”in‖, ”A‖'
+
+(d) "”i‖, ” ‖, ”am‖,” ‖, ”to‖,” ‖, ”go‖,” ‖, ”to‖,” ‖, ”KT‖,” ‖, ”in‖,” ‖,
+       ”A‖'
+
+                                                          4
+CORRECT ANSWER: (a)
+First option is correct because every element including whitespace in the input string becomes an element in
+the output list.
+
+                                                                   5
+                    The Joy of Computing using Python
+
+                                                        Assignment 4
+
+NOTE: Python 3.7 has been used for this Assignment
+1. Which statement can be used to come out of an infinite loop?
+
+     (a) continue
+    (b) break
+     (c) try
+    (d) catch
+   CORRECT ANSWER: (b)
+2. You are supposed to code your ”To do‖ list that contains all the activities that you plan to perform in a day.
+   Assume you recharged your mobile and want to delete it from the list. Identify the statement to perform the
+   same.
+   Given: to do="”Send Email‖, ”Recharge Mobile‖, ”Workshop preparation‖'
+
+     (a) to do.delete(‛Recharge Mobile ‑)
+    (b) to do.clear(‛Recharge Mobile‑)
+     (c) to do.remove(‛Recharge Mobile‑)
+    (d) to do.pop()
+
+   CORRECT ANSWER: (c)
+   Third option is correct. There is no delete() function for a list. clear() function takes no argument and it
+   deletes all elements of the list, pop() function returns the last element of the list.
+3. Simulate a ”Lot Box‖ that contains all alphabets from ”A‖ to ”T‖. Draw and Display.
+     (a) print(random.choice(list(string.ascii letters)))
+    (b) print(random.choice(list(string.ascii uppercase)))
+     (c) print(random.choice(list(string.ascii lowercase)))
+    (d) print(random.choice(string.ascii uppercase))
+   CORRECT ANSWER: (b)
+4. The following snippet produces TypeError: int object not callable. Pick out the correct code.
+
+                                 r e s u l t = a ( b + ( c   2 ) ) w he re a , b and c a re any i n t e g e r s
+
+     (a) result=ax(b+(c**2))
+    (b) result=a//(b+(c**2))
+     (c) result=a*(b+(c**2))
+    (d) result=a.(b+(c**2))
+
+   CORRECT ANSWER: (c)
+5. How will you display the current date in ”mm/dd/yy‖ format?
+
+     (a) print(datetime.datetime.now().strftime(”%c‖))
+    (b) print(datetime.datetime.now().strftime(”%B‖))
+
+                                                                       1
+     (c) print(datetime.datetime.now().strftime(”%C‖))
+    (d) print(datetime.datetime.now().strftime(”%x‖))
+
+   CORRECT ANSWER: (d)
+6. What does the following code do?
+
+                                 s 1=input (  E nt er a s t r i n g  )
+                                 s 2=input (  E nt er a no t he r s t r i n g  )
+                                 for each in l i s t ( s2 ) :
+
+                                               for each2 in l i s t ( s1 ) :
+                                                              i f ( each==each 2 ) :
+                                                                            print( yes  )
+                                                                            break
+
+     (a) prints yes if both strings are same
+    (b) prints yes if both strings have atleast one common character
+     (c) prints yes if first string is contained in the second
+    (d) none of the above
+
+   CORRECT ANSWER: (b)
+7. What does the following function do?
+
+                                de f lea p ( year ):
+                                               i f ( year % 400 == 0 or ( y e a r % 1 0 0 ! = 0 and y e a r % 4 == 0 ) ) :
+                                                             return 1
+                                               else :
+                                                             return 0
+
+     (a) returns true for century year and false for non century year
+    (b) returns true for leap year and false for non leap year
+     (c) returns false for century year and true for non century year
+    (d) none of the above
+   CORRECT ANSWER: (b)
+8. Given a n Ù n square matrix mx in the form of list of lists in figure, what is the output of the statement
+   func(mx,2) given n=7?
+
+                                de f fun c (mx, i ) :
+                                               f or i n d in range ( i , n i ) :
+                                                             print (mx" i ' " in d ' , end=  )
+                                               f or i nd in range ( i +1,n i ) :
+                                                             print (mx" i nd ' " n 1 i ' , end= )
+                                               f or i n d in range ( n 2 i , i ,  1 ) :
+                                                             print (mx"n 1 i ' " ind ' , end=  )
+                                               f or i n d in range ( n i  1 , i ,  1 ) :
+                                                             print (mx" ind ' " i ' , end=  )
+
+                                                                       2
+      (a) 3 2 1 8 5 6 7 6
+      (b) 3 2 1 6 7 8 7 6 5
+      (c) 3 2 1 1 8 5 5 6 7 7 6 3
+      (d) 3 6 7 7 7 2 1 8 5
+     CORRECT ANSWER: (a)
+ 9. Pick out the snippet to perform integer division.
+      (a) a // b
+      (b) a / b
+      (c) a mod b
+      (d) a % b
+     CORRECT ANSWER: (a)
+10. Pick out the valid function call to the definition given below:
+
+                                  de f i s p a r t i c i p a t i n g ( name , p a r t i c i p a n t s ) :
+                                                c= p a r t i c i p a n t s . c o u n t ( n ame )
+                                                 i f c==0:
+                                                               return( Fa ls e )
+                                                 else :
+                                                               return (True)
+
+      (a) is participating(”Raji‖,”Shiva‖,”Raji‖,”Priya‖)
+      (b) is participating(”Raji‖,"”Shiva‖,”Raji‖,”Priya‖')
+      (c) is participating"”Raji‖,{”Shiva‖,”Vani‖,”Priya‖}'
+      (d) is participating(‖Raji‖,{”Shiva‖,”Raji‖,”Priya‖})
+     CORRECT ANSWER: (b)
+
+                                                                         3
+                   The Joy of Computing using Python
+
+                                              Assignment 5
+
+NOTE: Python 3.7 has been used for this Assignment
+
+1. Select the command to empty or reset the ‖employee‖ dictionary.
+
+     (a) del employee
+    (b) del employee"0:2'
+     (c) employee.remove()
+    (d) employee.clear()
+
+   CORRECT ANSWER: (d)
+
+2. Which of the following code represents creating a dictionary from a list where keys are the unique elements
+   from the list and the value corresponding to a key is the number of times that key occurs in the list.
+
+(a)                  d i c t 1 ={}
+
+                     list1 ="1 ,2 ,4 ,5 ,3 ,2 ,4 ,5 ,6 ,7 ,8 ,1 ,2 ,3 ,4 ,6 ,9 ,10'
+
+                     for each in list 1 :
+
+                                    i f each n ot i n d i c t 1 :
+
+                                            dict1 " each'=1
+
+                                    else :
+
+                                            dic t1 " each'= dic t1 " each'+ l i s t 1 . count( each)
+
+                     print( dict 1 )
+
+(b)                  d i c t 1 ={}
+
+                     list1 ="1 ,2 ,4 ,5 ,3 ,2 ,4 ,5 ,6 ,7 ,8 ,1 ,2 ,3 ,4 ,6 ,9 ,10'
+
+                     for each in list 1 :
+
+                                    i f each n ot i n d i c t 1 :
+
+                                            dict1 " each'=0
+
+                                    else :
+
+                                            dic t1 " each'= dic t1 " each'+ l i s t 1 . count( each)
+
+                     print( dict 1 )
+
+(c)                  d i c t 1 ={}
+
+                     list1 ="1 ,2 ,4 ,5 ,3 ,2 ,4 ,5 ,6 ,7 ,8 ,1 ,2 ,3 ,4 ,6 ,9 ,10'
+
+                     for each in list 1 :
+
+                                    i f each n ot i n d i c t 1 :
+
+                                            dict1 " each'=1
+
+                                    else :
+
+                                            dic t1 " each'=d ict 1 " each'+1
+
+                     print( dict 1 )
+
+(d) none of these
+
+CORRECT ANSWER: (c)
+
+3. Identify the audio file format that is NOT supported by Python Speech Recognition Module.
+
+(a) FLAC
+(b) AIFF
+(c) WAV
+(d) MP3
+
+                                            1
+   CORRECT ANSWER: (d)
+
+4. Which of the following exception can be used to handle the error that occurs when Google cannot understand
+   the audio content in speech recognition?
+
+     (a) UnknownValueError
+    (b) RequestError
+     (c) ValueError
+    (d) RunTimeError
+
+   CORRECT ANSWER: (a)
+
+5. Which of the following statements is correct for the Monte Hall problem?
+   Statement I: If you choose the correct door on the first try, then switching loses
+   Statement II: Contestants who switch have 2/3 chances to win whereas contestants who donot switch have 1/3
+   chances of win.
+
+     (a) I only
+    (b) II only
+     (c) Both I & II
+    (d) None
+
+   CORRECT ANSWER: (c)
+
+6. Which of the random experiments from the options does the code represent?
+
+                                import random
+                                p1="  rock  ,  paper  ,  s c i s s o r  '
+                                p2="  rock  ,  paper  ,  s c i s s o r  '
+                                c1=random. ch oi ce ( p1)
+                                c2=random. ch oi ce ( p2)
+                                 i f ( c1==c2 ) :
+
+                                               print (  SUCCESS  )
+                                 else :
+
+                                               print (  FAIL  )
+
+     (a) Prints a success when both people select the same object
+    (b) Prints a success when both people select ‛rock‑
+     (c) Prints a success when both people select diflerent objects
+    (d) None of the above
+
+   CORRECT ANSWER: (a)
+
+7. What does the following code represent?
+
+                                import random
+                                x=0
+                                y=0
+                                while ( 1 ) :
+
+                                               r = random. uniform (0 ,1)
+                                               if (r;0.4):
+
+                                                             x=x+1
+                                               elif (r;0.8):
+
+                                                             y=y+1
+                                               else :
+
+                                                             x=x+1
+                                                             y=y+1
+                                               print  location=(  ,x ,  ,  ,y ,  ) 
+                                               input( ‑ e n t er a key t o c on ti nu e ‑ )
+
+                                                                       2
+      (a) A drunkard moving on a straight line, moving one step forward with probability 0.4, one step backward
+           with probability 0.4 and staying at the same place with probability 0.2
+
+      (b) A drunkard moving on a ]Y plane, moving right with probability 0.4, upwards with probability 0.8 and
+           diagonally up-right with probability 1.
+
+      (c) A drunkard moving on a ]Y plane, moving right with probability 0.4, upwards with probability 0.4 and
+           diagonally up-right with probability 0.2.
+
+      (d) A drunkard moving on a ]Y plane, moving left with probability 0.4, downwards with probability 0.8 and
+           diagonally down-left with probability 1.
+
+     CORRECT ANSWER: (c)
+
+ 8. The following code takes a list as input and prints the sorted list as an output. The outer for loop is to count
+     the number of iterations. What is the purpose of the inner for loop?
+
+                                  de f bubble ( my lis t ) :
+                                                n=len ( myl ist )
+                                                f or i in range (n ) :
+                                                               f o r j in range ( 0 , n i  1) :
+                                                                              if mylist " j':mylist " j +1':
+                                                                                            myl ist " j ' , my lis t " j+1'=m yl ist " j
+                                                                                                  +1' , myli st " j '
+                                                print( myl ist )
+
+      (a) To fetch the pair of consecutive elements to be compared
+      (b) Index of the element for which the right position is to be found
+      (c) To identify the max element
+      (d) To check if the list is sorted
+
+     CORRECT ANSWER: (a)
+
+ 9. The following code to its best, represents a scenario:
+
+                                  de f fun c ( i , f ):
+                                                print( i )
+                                                 i f ( i ==0):
+                                                               f =1
+                                                               fun c ( i +1, f )
+                                                 i f ( i ==128):
+                                                               f = 1
+                                                               fu nc ( i  1, f )
+                                                 i f ( f ==1):
+                                                               fun c ( i +1, f )
+                                                 i f ( f== 1):
+                                                               fu nc ( i  1, f )
+
+      (a) A cake getting eaten by half of its current amount every time
+      (b) A student attempting alternate questions, starting from a given question
+      (c) Viruses doubling inside a body and killing the person once their population becomes 128 or more.
+      (d) Metro train serving 128 stations to and fro
+
+     CORRECT ANSWER: (D)
+
+10. Given that you have a sorted list of 1000 elements and the element to find is at the end of your list(worst case),
+     what is the number of comparisons to search such an element using linear search and binary search?
+
+      (a) 1000, 10
+      (b) 10, 2
+      (c) 1000, 2
+      (d) 10, 10
+
+     CORRECT ANSWER: (a)
+     Solution: If n is the number of elements in the list, then it takes n comparisons for linear search and log2(n)
+     comparisons for binary search
+
+                                                                         3
+                    The Joy of Computing using Python
+
+                                                        Assignment 6
+
+NOTE: Python 3.7 has been used for this Assignment
+
+1. Look at the following functions.
+
+                                import random
+                                import s t r i n g
+
+                                de f c r e a t e e n c r y p t i o n k e y ( s t r i n g 1 ) :
+                                        chars=list ( set ( list ( strin g1 )))
+                                       k e y d i c t ={}
+                                        t a ke n = " '
+                                        for each in chars :
+                                               while ( 1 ) :
+                                                      r=random. c ho ic e ( ch ar s )
+                                                      i f ( r n ot i n t a k en ) :
+                                                              keyd ict " each'= r
+                                                             taken . append( r )
+
+                                                                   break
+
+                                        return( keydict )
+
+                                de f r e v e r s e ( d ) :
+                                       d1 ={}
+                                        for each in d :
+                                               d1"d" each''= each
+                                        return d1
+
+                                de f e n c r y p t ( l e t t e r , k ey ) :
+                                        l ="'
+                                        for i in range ( 0 , len ( l e t t e r ) ) :
+                                               l . append( key " l e t t e r " i ' ' )
+                                        return( l )
+
+   Which of the following set of statements correctly represent encryption and decryption using substitution
+   cipher?
+   It is also given that the set of characters for substitution is chosen from the plain text.
+
+     (a) plain_text=input("Enter the string you want to encrypt")
+           key=create_encryption_key(plain_text)
+           cipher_list= encrypt(plain_text,key)
+           cipher_text=(”‖.join(cipher_list))
+           plain_list= encrypt(cipher_list,reverse(key))
+           plain_text= (”‖.join(plain_list))
+
+    (b) plain_text=input("Enter the string you want to encrypt")
+           key=create_encryption_key(plain_text)
+           cipher_list= encrypt(plain_text,key)
+           cipher_text=(”‖.join(cipher_list))
+           plain_list= encrypt(cipher_list,key)
+           plain_text= (”‖.join(plain_list))
+
+     (c) plain_text=input("Enter the string you want to encrypt")
+           key=create_encryption_key(plain_text)
+           cipher_list= encrypt(plain_text,key)
+
+                                                                       1
+     cipher_text=(”‖.join(cipher_list))
+     plain_list= encrypt(plain_list,reverse(key))
+     plain_text= (”‖.join(plain_list))
+
+(d) None of the above
+
+CORRECT ANSWER: (a)
+
+2. Assuming, there is no file named ‑file.txt‑ on my computer, what does the following code do?
+
+        with         open (   f i l e . tx t   , w     )  as  f:
+
+                     print( f . read () )
+
+                     f . writ e (  Hey ! I am w r i t i n g  ) 8
+
+        f . clo se ()
+
+     (a) Creates a file named file.txt and adds ”Hey! I am writing‖ to it
+    (b) Shows an error because file does not exist
+     (c) shows an error because file in not opened in the reading mode
+    (d) None of the above
+
+   CORRECT ANSWER: (d)
+
+3. What does the function ‖confidential‖ do?
+
+                                de f c o n f i d e n t i a l ( mob num ) :
+                                              s u b s d i c t ={}
+                                               sec num="0'  len (mob num)
+                                               f or i in range ( len ( s t r i n g . d i g i t s ) ) :
+                                                              s u b s d i c t " s t r i n g . d i g i t s " i ' ' = s t r i n g . d i g i t s " i  1'
+                                               f or j in range ( len (mob num)):
+                                                             sec num " j'= su bs di ct "mob num" j ' '
+                                               return (sec num)
+
+     (a) Generates the secret code for the given mobile number with every digit coded with the next digit.
+    (b) Generates the secret code for the given mobile number with every digit coded with the previous digit.
+     (c) Generates the secret code for the given mobile number with every digit coded with a random digit.
+    (d) Generates the secret code for the given mobile number with every digit coded with a special character.
+
+   CORRECT ANSWER: (b)
+
+4. What is the output for the given code?
+
+                                import numpy
+                                mat=numpy . a r r a y ( " " 1 , 2 , 3 ' , " 4 , 5 , 6 ' , " 7 , 8 , 9 ' ' )
+
+                                de f a d d ( m a t ) :
+                                              sum=0
+                                               f or i in range ( 2 ) :
+                                                             for j in range ( 2 ) :
+                                                                            i f i==j :
+                                                                                          sum=sum+mat " i ' " j '
+                                               return (sum)
+
+                                print (add(mat))
+
+(a) 15
+(b) 9
+(c) 6
+(d) 24
+
+                                                 2
+     CORRECT ANSWER: (c)
+     Solution: The code calculates the sum of all the diagonal elements of the numpy array whose indices i and j
+     are equal.
+ 5. Which of the following can be used to see the dimension of a numpy array names ”arr‖?
+      (a) dim(arr)
+      (b) shape(arr)
+      (c) arr.shape
+      (d) arr.shape()
+     CORRECT ANSWER: (c)
+     Solution:
+     The shape property is used to get the current shape of an array
+ 6. What happens if we fail to check the anchor case in a recursive function?
+      (a) Results in an infinite loop
+      (b) RunTimeError
+      (c) Never gets executed
+      (d) Returns a wrong output
+     CORRECT ANSWER: (a)
+     Solution: The anchor case or base case is the condition that terminates the recursive call to the function.
+     Therefore absence of it may cause an infinite loop.
+ 7. What is the output of the following code ?
+
+                                  print (  ab  . i s a l p h a ( ) )
+
+      (a) True
+      (b) False
+      (c) None
+      (d) Error
+
+     CORRECT ANSWER: (a)
+ 8. If GOLD is encoded as FNKC, then how is PLATINUM encoded?,
+
+      (a) NKYRGLSK
+      (b) OKTSHMUL
+      (c) NJYRGLSK
+      (d) OKTSHMTL
+     CORRECT ANSWER: (d)
+     Solution: Each letter in GOLD is coded by its corresponding previous letter, FNKC. Therefore PLATINUM is
+     coded as OKTSHMTL.
+ 9. Which of these statements is true?
+      (a) Recursion can solve only a subset of problems which Iteration can.
+      (b) Recursion is not related to Iteration.
+      (c) Recursion cannot solve the problems that can be solved by iteration.
+      (d) Any problem that Recursion can solve, can also be solved by Iteration.
+     CORRECT ANSWER: (d)
+10. Which of the following strategy of play does Tic Tac Toe belong to?
+      (a) Max-max
+
+                                                                         3
+ (b) Min-max
+ (c) Max-min
+ (d) Min-min
+CORRECT ANSWER: (b)
+Solution: Min- Max strategy which means to minimizing the chances of opponent‖s victory and maximizing
+one‖s own chances of achieving the winning configuration.
+
+                                                                   4
+                    The Joy of Computing using Python
+
+                                                        Assignment 7
+
+NOTE: Python 3.7 has been used for this Assignment
+
+1. Imagine a single player snakes and ladders game. The code below represents
+
+                                import random
+
+                                de f p l a y ( p s n , f l a g ) :
+                                               s n a k e b e g i n = 1
+                                               s n a k e e n d = 1
+                                               while ( s n a k e b e g i n ;= s n a k e e n d ) :
+                                                              sna ke beg in=random. randi nt (1 ,9 9)
+                                                             snake end=random. ran din t (1 ,99 )
+                                               print (  Snake from  , s n a k e b e g i n ,  t o  , snake end )
+                                               r = random. ran din t (1 ,6 )
+                                               print (  D ic e r o l l e d :  , r )
+                                               i f ( psn==0):
+                                                              i f ( r==1 or r==6):
+                                                                            psn=1
+                                               else :
+                                                             psn=psn+r
+                                               print(  Position= ,psn)
+                                              #inp ut ()
+                                               i f (psn==sna ke beg in and f l a g = = 0 ) :
+                                                             print (  B i t t e n by s n ak e  )
+                                                             psn=snake end
+                                                              flag=1
+                                               i f (psn :=100):
+                                                             print (  You won  )
+
+                                                                    return
+
+                                               play ( psn , fl ag )
+
+                                 position=0
+                                print(  Position= , pos iti on )
+                                 play( position ,0)
+
+     (a) A snakes and ladders game with one snake whose position remains constant while the player is playing.
+          The position also remains the same during any subsequent plays (i.e. the game board does not change
+          while you sleep and play again the next day).
+
+    (b) A snakes and ladders game with one snake whose position remains constant while the player is playing.
+          However, the position can change during any subsequent plays (i.e. the game board might change while
+          you sleep and play again the next day).
+
+     (c) A snakes and ladders game with one snake where the snake can change its position during the game and
+          also during any subsequent plays (a board game where the snakes keep moving). Further, the snake can
+          bite you any number of times.
+
+    (d) A snakes and ladders game with one snake where the snake can change its position during the game and
+          also during any subsequent plays (a board game where the snake keeps moving). Further, the snake can
+          bite you only once when you play.
+
+   CORRECT ANSWER : (d) The snake position is redefined each recursive call and there is ﬂag mechanism to
+   check if you have been bitten by a snake so that subsequent bites could be stopped.
+
+2. Consider the code given below. Assume your current position being 19 and what happens when you roll 2?
+
+                                                                       1
+                                               import random
+                                               end=100
+
+                                               de f s n a k e l a d d e r ( p o s ) :
+                                                             sl dict ={1:38 ,4:14 ,8:30 ,21:42 ,28:76 ,32:10 ,
+                                                             36:6 ,48:26 ,50:67 ,62:18 ,71:92 ,80:99 ,88:24 ,95:56 ,97:78}
+                                                              i f pos in sl di ct . keys () :
+                                                                            return ( sl di ct " pos ')
+                                                             else :
+                                                                            return ( p o s )
+
+                                               de f p l ay ( ) :
+                                                             pos=0
+                                                             turn=0
+                                                             print (  Let  s p l ay S na ke s a ns L ad de rs !  )
+                                                             while (1 ):
+                                                                            c=inp ut (  P re ss 1 t o r o l l D ice /0 t o _ uit  )
+                                                                            i f c== 0  :
+                                                                                          break
+                                                                            r o l l=random. rand int (1 ,6)
+                                                                            turn=turn+1
+                                                                            pos roll=pos+roll
+                                                                            p o s=s n a k e l a d d e r ( p o s r o l l )
+                                                                            i f pos:p o s r o l l :
+                                                                                          p r i n t (  H ur ra y ! You c l i m b e d a l a d d e r .
+                                                                                          Your score i s  , p o s )
+                                                                            e l i f pos;p o s r o l l :
+                                                                                          p r i n t (  OOPS ! You a r e b i t t e n by a s n ak e .
+                                                                                            Your score i s  , p o s )
+                                                                            else :
+                                                                                          p r i n t (  Your p o s i t i o n i s , pos )
+                                                                            i f pos:=end :
+                                                                                          print (  You won in  , turn ,  turns  )
+                                                                                          break
+
+                                               play ()
+
+     (a) You climb up the ladder to reach 42
+
+    (b) You are bitten by a snake to reach 42
+
+     (c) You win
+
+    (d) You _uit
+
+   CORRECT ANSWER: (a)
+
+3. Imagine a single player snakes and ladders game. The code below represents
+
+                                                             import random
+
+                                                             de f play ( psn ) :
+                                                                            s n a k e b e g i n = 1
+                                                                            s n a k e e n d = 1
+                                                                            while ( s n a k e b e g i n ;= s n a k e e n d ) :
+                                                                                          sna ke beg in=random. randi nt (1 ,99 )
+                                                                                          snake end=random. ran din t (1 ,9 9)
+                                                                            r = ran do m . r a n d i n t ( 1 , 6 )
+                                                                            print (  D ic e r o l l e d :  , r )
+                                                                            i f ( psn==0):
+                                                                                           i f ( r==1 or r==6):
+                                                                                                         psn=1
+                                                                            else :
+                                                                                          psn=psn+r
+                                                                            i f (psn==sna ke beg in ):
+
+                                                                       2
+                                                                                     print (  B i t t e n by s na ke  )
+                                                                                     psn=snake end
+                                                                       i f ( psn :=100):
+                                                                                     print (  You won  )
+
+                                                                                              return
+
+                                                                       play ( psn )
+
+                                                         position=0
+                                                        play ( position )
+
+(a) A snakes and ladders game with one snake whose position remains constant while the player is playing.
+     The position also remains the same during any subsequent plays (i.e. the game board does not change
+     while you sleep and play again the next day).
+
+(b) A snakes and ladders game with one snake whose position remains constant while the player is playing.
+     However, the position can change during any subsequent plays (i.e. the game board might change while
+     you sleep and play again the next day).
+
+(c) A snakes and ladders game with one snake where the snake can change its position during the game and
+     also during any subsequent plays (a board game where the snakes keep moving). Further, the snake can
+     bite you any number of times.
+
+(d) A snakes and ladders game with one snake where the snake can change its position during the game and
+     also during any subsequent plays (a board game where the snake keeps moving). Further, the snake can
+     bite you only ones when you play.
+
+CORRECT ANSWER: (c) The snake position is redefined each recursive call and there is no mechanism to
+check if you have been bitten by a snake so that subsequent bites could be stopped.
+
+4. Predict the output of the calling function func(mx) for a given square matrix, mx of dimension 70 Ù 70.
+
+de f fun c (mx) :
+
+f =1
+
+n=len (mx)
+
+tur = tur tle . Turtle ()
+
+tur . setpos (0 ,0)
+
+j =0
+
+while ( j ;n ) :
+
+                   i f ( f ==1):
+
+                             i =0
+
+                             while ( i ;=n  1) :
+
+                                           tu rt le . goto( i , j )
+
+                                           i=i+10
+
+                   i f ( f ==0):
+
+                             i=n 1
+
+                             while   (  i  :                     1) :
+                                                              
+
+                                           tu rt le . goto( i , j )
+
+                                           i= i  10
+
+                   f=(f+1)
+
+                   i f ( f ==2):
+
+                             f =0
+
+                   j= j +10
+
+t u r t l e . d on e ( )
+
+                          3
+     (a)
+
+    (b)
+
+     (c)
+
+    (d)
+   CORRECT ANSWER: (d)
+5. Predict the output of the calling function func() for a given square matrix mx of dimension 70 Ù 70.
+
+                                import t u r t l e
+                                de f f u n c ( ) :
+
+                                        tur = tur tle . Turtle ()
+                                        tur . setpos (0 ,0)
+                                       n=len (mx)
+                                        second=int (n/2)
+                                        t u r t l e . g o t o ( s ec o nd  1,second  1)
+                                        tu rt le . goto( second  1,second)
+                                        t u r t l e . go t o ( s e c on d , s e c on d  1)
+                                        tu rt le . goto ( second , second )
+                                        t u r t l e . d on e ( )
+                                 func ()
+
+     (a)
+
+                                                                       4
+    (b)
+
+     (c)
+
+    (d)
+   CORRECT ANSWER: (d)
+6. Identify the package that is used to import an image.
+     (a) Pandas
+    (b) Scipy
+     (c) PIL
+    (d) numpy
+   CORRECT ANSWER: (c)
+7. Given a n Ù n square matrix mx in the form of list of lists in the following figure, what is the output of the
+   statement func(mx)?
+
+                                de f fun c1 (mx, i ) :
+                                               f or i n d in range ( i , n i ) :
+                                                             print (mx" i ' " in d ' , end=  )
+                                               f or i nd in range ( i +1,n i ) :
+                                                             print (mx" i nd ' " n 1 i ' , end= )
+                                               f or i n d in range ( n 2 i , i ,  1 ) :
+                                                             print (mx"n 1 i ' " ind ' , end=  )
+                                               f or i n d in range ( n i  1 , i ,  1 ) :
+                                                             print (mx" ind ' " i ' , end=  )
+
+                                                                       5
+                                  de f fun c (mx) :
+                                                f or i in range ( n ) :
+                                                               fu nc 1 (mx, i )
+                                                               print ()
+
+      (a) 3 2 1 8 5 6 7 6
+
+      (b) 1 2 3 4 5 6 7 6 3 0 3 6 7 8 9 0 9 8 7 2 9 4 5 8
+           9098729 454321 854
+           3218567 6
+           7
+
+      (c) 1 2 3 4 5 6 7 6 3 0 3 6 7 8 9 0 9 8 7 2 9 4 5 8 9 0 9 8 7 2 9 4 5 4
+           3218543 218567
+
+      (d) 3 6 7 7 7 2 1 8 5
+
+     CORRECT ANSWER: (b)
+ 8. How do you create a base map using gmplot package?
+
+      (a) gmap=gmplot.GoogleMapPlotter(cent lat,cent long, zoom)
+      (b) gmap=gmplot.GoogleMapPlotter(cent long,cent lat, zoom)
+      (c) gmap=gmplot.GoogleMapPlotter(cent lat,cent long)
+      (d) gmap=gmplot.GoogleMapPlotter(zoom,cent lat,cent long)
+     CORRECT ANSWER: (a)
+ 9. Comment on the following code:
+
+                                  import csv
+                                  from gmplot import gmplot
+
+                                  gmap=gmplot . GoogleMapPlotter (9.920227 ,78.158252 ,12)
+
+                                  gmap . c o l o r i c o n =  ht tp :/ /www. goo gle map sma rker s . com/v1/%s 
+
+                                  w i t h open (  path1 . csv  ,  r  ) a s d :
+                                         reader = csv . reader (d)
+                                         k=0
+
+                                         for row in r e a d e r :
+                                                 l a t =f l o a t ( r ow " 0 ' )
+                                                long=f l o a t ( r ow " 1 ' )
+                                                 i f ( k==0):
+                                                       gmap. marker ( la t , long ,  re d  )
+                                                        k=1
+                                                 else :
+                                                       gmap. marker ( la t , long ,  y e l l o w  )
+
+                                  gmap. draw(  mymap. html  )
+
+      (a) Red marker is used for initial and final positions
+      (b) Yellow marker is used for the final position only
+      (c) Yellow marker is placed for all positions except first position which has a red marker.
+      (d) Red marker is placed for all positions except first position which has a yellow marker
+
+     CORRECT ANSWER: (c)
+10. How will you download and install packages that are unavailable in conda cloud?
+
+                                                                         6
+ (a) pip install packagename
+ (b) conda list
+ (c) conda install packagename
+ (d) sudo apt-get install packagename
+CORRECT ANSWER: (a)
+
+                                                                   7
+                    The Joy of Computing using Python
+
+                                                        Assignment 8
+
+NOTE: Python 3.7 has been used for this Assignment
+1. What is the output of the following snippet?
+
+                                 t1=(  Amit  ,  Simran  ,  Neeru  ,  Ravi  ,  Shubhadha  )
+                                 t2=t1+t1
+                                print( len( t2 ))
+
+     (a) 5
+    (b) 10
+     (c) Error, because there is no len() function for Tuple
+    (d) Error, because Tuples are immutable
+
+   CORRECT ANSWER: (b)
+   Solution: A tuple object can append to another tuple object
+2. Which of the following instruction produces a tuple, Team with ”Poonam‖ as the sixth member?
+   Given:
+
+                                Team=(  Amit  ,  Simran  ,  Neeru  ,  Ravi  ,  Shubhadha  )
+
+     (a) Team=Team.append(”Poonam‖)
+    (b) Team=Team+tuple(”Poonam‖)
+     (c) Team=Team+(”Poonam‖)
+    (d) Team=Team+(”Poonam‖,)
+
+   CORRECT ANSWER: (d)
+3. Which of the scenarios in the options does the following code represent?
+
+                                import random
+                                de f p l a y ( ) :
+
+                                               a=input (  E n te r a number f ro m 1 t o 1 0  )
+                                               r=random. r an di nt (1 ,1 0)
+                                               i f ( a==r ) :
+
+                                                             return 1
+                                               else :
+
+                                                             return 0
+
+                                amt=0
+                                 for i in range ( 1 , 3 6 6 ) :
+
+                                               amt=amt+play ()
+
+                                print (amt)
+
+     (a) A person going to the bar for a year. Daily he guesses a number from 1 to 10. If the guessed number is
+          equal to the number randomly generated by bar authority, he gains one gold coin.
+
+    (b) A person going to the bar for a month. Daily he guesses a number from 1 to 10. If the guessed number
+          is equal to the number randomly generated by bar authority, he gains one gold coin.
+
+                                                                       1
+(c) A person going to the bar for a year. Daily he guesses a number from 1 to 10. If the guessed number is
+     equal to the number randomly generated by bar authority, he loses one gold coin.
+
+(d) A person going to the bar for a month. Daily he guesses a number from 1 to 10. If the guessed number
+     is equal to the number randomly generated by bar authority, he loses one gold coin.
+
+   CORRECT ANSWER: (a)
+
+4. Consider the following two codes:
+   Game 1
+
+                                import random
+                                 r=random. un ifo rm (0 ,1 )
+                                 if ( r ;=0.5):
+
+                                               print (  won  )
+
+Game 2
+
+        import random
+
+        r=random. c ho ic e ( range ( 1 , 6 ) )
+
+        i f ( r%2==0):
+
+                                  print (  Won     )
+
+     (a) Probability of winning in Game 1 : Probability of winning in Game 2.
+    (b) Probability of winning in Game 1 ; Probability of winning in Game 2.
+     (c) Probability of winning in Game 1 = Probability of winning in Game 2.
+    (d) Can‖t say
+
+   CORRECT ANSWER: (a)
+
+5. Choose the appropriate instruction to retrieve the mirror image of the given image.
+
+     (a) mirror image=img.transpose(Image.FLIP TOP BOTTOM)
+    (b) mirror image=img.ﬂip(Image.FLIP LEFT RIGHT)
+     (c) mirror image=img.transpose(Image.FLIP LEFT RIGHT)
+    (d) mirror image=img.composite(Image.FLIP LEFT RIGHT)
+
+   CORRECT ANSWER: (c)
+
+6. Identify the technique that can be used to enhance image in cv2.
+
+     (a) enh img=clahe.apply(gray)
+    (b) enh img=canny.apply(gray)
+     (c) enh img=sobel.apply(gray)
+    (d) enh img=enhance.apply(gray)
+
+   CORRECT ANSWER: (a)
+
+7. Identify the best instruction to debug the following code that checks if the given strings are Anagrams:
+                                 s 1=input (  E nter f i r s t s t r in g :  )
+
+                                 s 2=input (  E nt er S ec on d s t r i n g :  )
+                                 if s1 . sort ()!=s2 . sort ():
+
+                                               print (  T h e s e a r e A na gr am s  )
+                                 else :
+
+                                               print (  Not Anagrams  )
+
+(a) if s1.sort()==s2.sort():
+(b) if s1.sorted()==s2.sorted():
+(c) if sorted(s1)==sorted(s2):
+
+                                                                  2
+      (d) if sorted(s1)!=sorted(s2):
+     CORRECT ANSWER: (c)
+ 8. Which of the following libraries helps us to find the intensity of emotion in sentiment analysis?
+      (a) vader
+      (b) nltk
+      (c) pandas
+      (d) scipy
+     CORRECT ANSWER: (a)
+ 9. The isalpha() function in NLTK
+      (a) returns true if any of the words in a sentence are composed of alphabetic characters and false otherwise
+      (b) returns true if all the characters in a word are alphabets and false otherwise
+      (c) returns true if all the characters in a word are alphabets or numerics and false otherwise
+      (d) None of the above
+     CORRECT ANSWER: (b)
+10. Every character, either alphabet or digit or special character has an ASCII value. Choose the appropriate
+     method to find the ASCII value of ”f‖.
+      (a) ASCII(”f‖)
+      (b) ord(”f‖)
+      (c) int(”f‖)
+      (d) ASC val(”f‖)
+     CORRECT ANSWER: (b)
+
+                                                                         3
+        Assignment 9                                                       1 point
+
+   Assessment due date is 18/11/2020 23:59:0
+   Last recorded submission : 2020-11-16, 13:28 IST
+
+NOTE: Python 3.7 has been used for this Assignment
+  1) Which of the following commands is used to draw the following graph?
+
+G = nx.complete_graph(10)
+G = nx.complete_graph(9)
+      AG s=snixg.Gnrmaphe(n10t)9                                                    1 point
+
+        G = nx.Digraph(10)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+G = nx.complete_graph(10)
+
+2) Identify the option that best describes the graph output of the following code.
+
+        A complete graph with 10 nodes
+
+        A complete graph with 9 nodes
+
+        A connected graph with 10 nodes
+
+        A connected graph with 9 nodes
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+A connected graph with 10 nodes                                                               1 point
+
+      Assignment 9
+
+3) How will you convert a graph, g into gexf format?
+        nx.build_gexf(g,”Friendship.gexf‖)
+
+        nx.create_gexf(g,”Friendship.gexf‖)
+
+        nx.write(g,”Friendship.gexf‖)
+
+        nx.write_gexf(g,”Friendship.gexf‖)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+nx.write_gexf(g,”Friendship.gexf‖)
+
+4) What does p and q represent in the following instruction to find the shortest path length?  1 point
+
+    p and q represent to two lists of nodes
+    p represents the source node and q represents the target node
+    p represents the target node and q represents source the node
+    p and q represent two paths
+
+Yes, The answer is correct
+Score : 1
+Accepted Answer
+
+      Assignment 9
+
+p represents the source node and q represents the target node
+
+5) Given a newspaper article, the first step to perform text analytics is to break down the paragraph 1 point
+   into smaller chunks of words. Select the instruction that does it for you.
+        word_tokenize(text)
+
+        word_sent(text)
+
+        text.word_tokenizer()
+
+        text.sent_tokenizer()
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+word_tokenize(text)
+
+6) Predict the output for the given code:                      1 point
+   Yes, The answer is correct
+
+  ScoAres:s1ignment 9
+
+Accepted Answer
+
+7) Pick out the valid function to find the frequency distribution.            1 point
+        nltk.FreqDist()                                                      1 point
+        nltk.Freq_Dist()
+        nltk.Frequency_Dist()
+        nltk.FDist()
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+nltk.FreqDist()
+
+8) Which of the following commands is used to create an image for an array?
+        Image.array(array)
+        Image.fromarray(array)
+      AImsasgieg.inmmageefnrot m9array(array)
+
+        Image.imgarray(array)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Image.fromarray(array)
+
+9) What is the output of the following snippet?                                                  1 point
+
+        Image of size 200 x 200 with Red on left and Blue on right
+
+        Image of size 200 x 3 with Red on top and Blue at the bottom
+
+        Image of size 200 x 200 with Red on top and Green at the bottom
+
+        Image of size 200 x 200 with Red on top and Blue at the bottom
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Image of size 200 x 200 with Red on top and Blue at the bottom
+
+10)Consider the program to estimate the area calcuation of your state. How can you increase the  1 point
+   accuracy of the estimate?
+      ABysisncigrenamsinegnthte9number of iterations the experiment is performed.
+
+        By decreasing the number of iterations the experiment is performed.
+
+        By reducing the number of iterations the experiment to one.
+
+        By increasing the number of iterations to 100.
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+By increasing the number of iterations the experiment is performed.
+        Assignment 10                                                                       1 point
+                                                                                            1 point
+   Assessment due date is 25/11/2020 23:59:0
+   Last recorded submission : 2020-11-17, 12:53 IST
+
+NOTE: Python 3.7 has been used for this Assignment
+  1) Which of the following attributes is used to obtain picture size using PIL in Python?
+         len
+
+         size
+
+         dimension
+
+         length
+
+     Yes, The answer is correct
+     Score : 1
+  Accepted Answer
+
+ size
+
+  2) Predict the output.
+      Assignment 10                               1 point
+
+        1,4
+        "1, 4, 6, 12'
+        "1, 4'
+        "2, 3, 5, 6, 12'
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+"1, 4'
+3) What is the output for the following snippet?
+      Assignment 10
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+Assignment 10
+
+4) What does the following command perform?                                   1 point
+
+Chennai and Chennai are same. Chennai and Chennai are same. Chennai=Chennai,
+Chennai=Chennai
+
+Chennai and Chennai are same. Chennai and Chennai are same. Chennai=Madras,
+Madras=Chennai
+      AMMsaaddsrriaagssn=aCmnhdeeMnnnatadi1ra0s are same. Madras and Madras are same. Chennai=Madras,
+
+        Chennai and Chennai are same. Chennai and Chennai are same. Chennai=Chennai,
+        Madras=Chennai
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Chennai and Chennai are same. Chennai and Chennai are same. Chennai=Madras, Madras=Chennai
+
+5) Given:                                                                                              1 point
+   What is the output for the following command?
+
+        array("5, 7, 9')                                                                               1 point
+        array(" 6, 15')
+        AxisError: axis 2 is out of bounds for array of dimension 2
+        array("15')
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+AxisError: axis 2 is out of bounds for array of dimension 2
+
+6) Pick out the correct output.
+               numpy . ones ( ( 3 , 3 ) )
+
+      Assignment 10
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+7) How will you create a blank image of the same size and type of a given image?  1 point
+       img=Image.new(im.mode,im.shape)
+       img=Image.new(im.mode,im.size)
+      Aimsgs=iIgmnagme.enenwt (1im0.type,im.size)                      1 point
+
+        img=Image.blank(im.mode,im.size)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+img=Image.new(im.mode,im.size)
+
+8) Choose the relevant image for test3.png created by the given code.
+
+   Yes, The answer is correct
+   Score : 1
+
+Accepted Answer
+Assignment 10
+
+9) Predict the output.  1 point
+
+       13
+       38
+      A14ssignment 10
+
+        39
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+13
+
+10)Which of the following options is a best description of the output for the following command? 1 point
+
+        2 x 5 numpy array with random integers from 1 to 5
+        1 x 5 numpy array with random integers from 2 to 4
+        2 x 5 numpy array with random integers from 1 to 4
+        1 x 5 numpy array with random integers from 2 to 5
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+2 x 5 numpy array with random integers from 1 to 4
+        Assignment 11                                                                       1 point
+
+   Assessment due date is 2/12/2020 23:59:0
+   Last recorded submission : 2020-11-28, 12:18 IST
+
+NOTE: Python 3.7 has been used for this Assignment
+  1) Which of the following methods cannot be used to identify an element on the web page?
+          find_element_by_id()
+
+          find_element_by_link_text()
+
+          find_element_by_class_name()
+
+          send_keys()
+
+     Yes, The answer is correct
+     Score : 1
+  Accepted Answer
+
+ send_keys()
+
+2) Identify the python library required for Browser Automation.                             1 point
+       Selenium
+
+       Time
+
+       Webdriver
+
+       Chromedriver
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer                                                                  1 point
+                                                                                 1 point
+      Assignment 11
+
+Selenium
+
+3) Pick out the driver method to open a website in selenium.
+        driver.getwebpage()
+        driver.get()
+        driver.request()
+        driver.open()
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+driver.get()
+
+4) What is the purpose of the given command when we request to open a web page?
+
+To record login information
+To check certificate information of the web page
+To give buffer time for the driver in case there is a slow network connection
+To collect cookies information
+   Yes, The answer is correct
+
+  ScoAres:s1ignment 11
+
+Accepted Answer
+
+To give buffer time for the driver in case there is a slow network connection
+
+5) In Browser automation, you have identified the login box. Identify the instruction to type your name 1 point
+   and press ENTER.
+        login_box.send_keys(name + Keys.ENTER)
+
+        login_box.press_keys(name + Keys.ENTER)
+
+        login_box.send_keys(name + ENTER)
+
+        login_box.hot_key(name + Keys.ENTER)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+login_box.send_keys(name + Keys.ENTER)
+
+6) Which of the following libraries can be used to print time according to different timezones?  1 point
+       datetime
+
+       date
+
+       calendar
+
+       pytz
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer                                         0 points
+
+      Assignment 11
+
+pytz
+
+7) How will you find the day of the week, given a date?
+
+   Yes, The answer is correct                           1 point
+   Score : 0
+Accepted Answer
+
+8) Find the output:
+      Amsonstihg=n1m0 ent 11                                                      0 points
+                                                                                   1 point
+        month=11
+        month=23
+        month=2
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+month=10
+
+9) What is the last argument for the datetime function in the following command?
+
+        nanoseconds
+        milliseconds
+        minutes
+        microseconds
+
+   Yes, The answer is correct
+   Score : 0
+Accepted Answer
+
+microseconds
+
+10)How will you retrieve current date using date library?
+      Adastes.itgodnamy()ent 11
+
+        date.now()
+
+        date.current date()
+
+        date.date()
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+date.today()
+        Assignment 12
+
+   Assessment due date is 9/12/2020 23:59:0
+   Last recorded submission : 2020-12-05, 12:27 IST
+
+NOTE: Python 3.7 has been used for this Assignment
+  1) In a page rank algorithm, after taking an optimum number of random walks in a web graph, what 1 point
+     can you say about the nodes with maximum points?
+          These nodes are the most visited
+
+          These nodes are least visited
+
+          These nodes have maximum number of in-links
+
+          These nodes have maximum number of out-links
+
+     Yes, The answer is correct
+     Score : 1
+  Accepted Answer
+
+ These nodes are the most visited
+
+2) Identify the graph created using the following command.  1 point
+Assignment 12
+      Assignment 12
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+Assignment 12
+
+3) Which of the following commands is used to create the graph given below:  1 point
+Assignment 12
+
+        G = networkx.complete_graph(7)               1 point
+        G = networkx.cycle_graph(6)
+        G = networkx.star_graph(6)
+        G = networkx.star_graph(7)
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+G = networkx.star_graph(6)
+
+4) Comment on the purpose of the following command.
+      Assignment 12                                                       1 point
+
+        Sort the items of dictionary, p by key
+        Sort the items of dictionary, p by values
+        Sort the elements of list, p by values
+        Sort the items of Tuple, p by values
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Sort the items of dictionary, p by values
+
+5) Identify the graph that can never be an output of the following code.
+Assignment 12
+      Assignment 12
+
+   No, The answer is incorrect
+   Score : 0
+Accepted Answer
+Assignment 12
+
+6) Which of the following real world networks represent an undirected graph?  1 point
+       Wikigraph
+
+       Citation network
+
+       Facebook Friendship network
+
+       World wide web
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+      Assignment 12
+
+Facebook Friendship network
+
+7) What happens to the total Points with every iteration in the Points distribution method?  1 point
+        Increases every iteration
+
+        Decreases for every iteration
+
+        Increases or decreases depending on the structure of the graph
+
+        Remains constant
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Remains constant
+
+8) How many iterations does the number, 75 take to converge in Collatz Conjecture?           0 points
+        14
+
+        15
+
+        13
+
+        12
+
+   Yes, The answer is correct
+   Score : 0
+Accepted Answer
+
+14
+      Assignment 12                                                             1 point
+
+9) Which of the sequence do you obtain by executing 3n+1 algorithm for n = 10?
+        31, 15, 7, 3, 1
+
+        5, 16, 8, 4, 2, 1
+
+        5, 3, 2, 1
+
+        doesnot converge
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+5, 16, 8, 4, 2, 1
+
+10)How will you choose the next node to traverse in a random walk method of Page Rank algorithm? 1 point
+        Choose the node that has not been traversed yet
+
+        Choose the most weighted out-link
+
+        Randomly choose one of the out-links
+
+        Choose the least weighted out-link
+
+   Yes, The answer is correct
+   Score : 1
+Accepted Answer
+
+Randomly choose one of the out-links
+Assignment 12
+
